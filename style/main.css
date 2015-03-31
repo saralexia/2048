@@ -3,12 +3,13 @@ html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
-  color: #776e65;
+  color: #edc53f;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  background: url('../img/background.png') repeat;
+  margin: 0; }
 
 input {
   display: inline-block;
@@ -48,11 +49,14 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  text-align: center;
+  background: rgb(79, 131, 38);
+  border-radius: 3px; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -199,7 +203,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #edc53f;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -576,21 +580,26 @@ hr {
 .game-intro {
   float: left;
   line-height: 42px;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  margin-top: 5px;
+  background: rgb(79, 131, 38);
+  padding: 5px;
+  border-radius: 3px;}
 
 .restart-button {
   display: inline-block;
   background: #8f7a66;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 7px;
   text-decoration: none;
   color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
+  height: 30px;
+  line-height: 32px;
   cursor: pointer;
   display: block;
   text-align: center;
-  float: right; }
+  float: right; 
+  margin-top: 8px;}
 
 .game-explanation {
   margin-top: 50px; }
